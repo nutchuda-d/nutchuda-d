@@ -2,15 +2,15 @@
   <defs>
     <!-- ลายบล็อก ░ ▒ ▓ -->
     <pattern id="light" width="3" height="3" patternUnits="userSpaceOnUse">
-      <rect width="1.5" height="1.5" fill="#FF50CE"/>
+      <rect width="1.5" height="1.5" fill="#ffb8e4"/>
     </pattern>
     <pattern id="med" width="3" height="3" patternUnits="userSpaceOnUse">
-      <rect width="1.5" height="1.5" fill="#FF50CE"/>
-      <rect x="1.5" y="1.5" width="1.5" height="1.5" fill="#FF50CE"/>
+      <rect width="1.5" height="1.5" fill="#ffb8e4"/>
+      <rect x="1.5" y="1.5" width="1.5" height="1.5" fill="#ffb8e4"/>
     </pattern>
     <pattern id="dark" width="3" height="3" patternUnits="userSpaceOnUse">
-      <rect width="3" height="1.5" fill="#FF50CE"/>
-      <rect y="1.5" width="1.5" height="1.5" fill="#FF50CE"/>
+      <rect width="3" height="1.5" fill="#ffb8e4"/>
+      <rect y="1.5" width="1.5" height="1.5" fill="#ffb8e4"/>
     </pattern>
 
     <!-- ส่วนที่ถอดรหัสแล้ว -->
@@ -38,24 +38,24 @@
     <rect x="10.5"  y="11" width="13.4" height="28" fill="url(#dark)"/>
     <rect x="24.9"  y="11" width="13.4" height="28" fill="url(#med)"/>
     <rect x="39.3"  y="11" width="13.4" height="28" fill="url(#light)"/>
-    <rect x="53.7"  y="11" width="13.4" height="28" fill="#FF50CE"/>
+    <rect x="53.7"  y="11" width="13.4" height="28" fill="#ffb8e4"/>
     <rect x="68.1"  y="11" width="13.4" height="28" fill="url(#dark)"/>
     <rect x="82.5"  y="11" width="13.4" height="28" fill="url(#med)"/>
     <rect x="96.9"  y="11" width="13.4" height="28" fill="url(#light)"/>
-    <rect x="111.3" y="11" width="13.4" height="28" fill="#FF50CE"/>
+    <rect x="111.3" y="11" width="13.4" height="28" fill="#ffb8e4"/>
     <rect x="125.7" y="11" width="13.4" height="28" fill="url(#dark)"/>
     <rect x="140.1" y="11" width="13.4" height="28" fill="url(#med)"/>
     <rect x="154.5" y="11" width="13.4" height="28" fill="url(#light)"/>
-    <rect x="168.9" y="11" width="13.4" height="28" fill="#FF50CE"/>
+    <rect x="168.9" y="11" width="13.4" height="28" fill="#ffb8e4"/>
     <rect x="183.3" y="11" width="13.4" height="28" fill="url(#dark)"/>
     <rect x="197.7" y="11" width="13.4" height="28" fill="url(#med)"/>
     <rect x="212.1" y="11" width="13.4" height="28" fill="url(#light)"/>
-    <rect x="226.5" y="11" width="13.4" height="28" fill="#FF50CE"/>
+    <rect x="226.5" y="11" width="13.4" height="28" fill="#ffb8e4"/>
     <rect x="240.9" y="11" width="13.4" height="28" fill="url(#dark)"/>
   </g>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace"
-     font-size="24" font-weight="bold" fill="#FF50CE">
+     font-size="24" font-weight="bold" fill="#ffb8e4">
 
     <!-- 2) ตัวอักษรสุ่ม XO!# -->
     <g clip-path="url(#todo)" opacity="0">
