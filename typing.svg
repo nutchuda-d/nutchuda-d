@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="230" height="50" viewBox="0 0 230 50">
+<svg xmlns="http://www.w3.org/2000/svg" width="275" height="50" viewBox="0 0 275 50">
   <defs>
     <clipPath id="reveal">
       <rect x="10" y="0" height="50" width="0">
-        <animate attributeName="width" dur="4s" repeatCount="indefinite" calcMode="discrete"
-          values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2"
-          keyTimes="0;.038;.077;.115;.154;.192;.231;.269;.308;.346;.385;.423;.462;.5"/>
+        <animate attributeName="width" dur="5s" repeatCount="indefinite" calcMode="discrete"
+          values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8"
+          keyTimes="0;.029;.059;.088;.118;.147;.176;.206;.235;.265;.294;.324;.353;.382;.412;.441;.471;.5"/>
       </rect>
     </clipPath>
   </defs>
@@ -12,14 +12,14 @@
   <text x="10" y="33"
         font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace"
         font-size="24" font-weight="bold" fill="#58A6FF"
-        textLength="187.2" lengthAdjust="spacing"
-        clip-path="url(#reveal)">Hello, World!</text>
+        textLength="244.8" lengthAdjust="spacing"
+        clip-path="url(#reveal)">Nutchuda Doungjit</text>
 
   <!-- cursor -->
   <rect x="10" y="12" width="2" height="26" fill="#58A6FF">
-    <animate attributeName="x" dur="4s" repeatCount="indefinite" calcMode="discrete"
-      values="10;24.4;38.8;53.2;67.6;82;96.4;110.8;125.2;139.6;154;168.4;182.8;197.2"
-      keyTimes="0;.038;.077;.115;.154;.192;.231;.269;.308;.346;.385;.423;.462;.5"/>
+    <animate attributeName="x" dur="5s" repeatCount="indefinite" calcMode="discrete"
+      values="10;24.4;38.8;53.2;67.6;82;96.4;110.8;125.2;139.6;154;168.4;182.8;197.2;211.6;226;240.4;254.8"
+      keyTimes="0;.029;.059;.088;.118;.147;.176;.206;.235;.265;.294;.324;.353;.382;.412;.441;.471;.5"/>
     <animate attributeName="opacity" values="1;0" dur="1s"
       calcMode="discrete" repeatCount="indefinite"/>
   </rect>
