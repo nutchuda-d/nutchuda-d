@@ -1,34 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="275" height="50" viewBox="0 0 275 50">
   <defs>
-    <!-- ส่วนที่ถอดรหัสแล้ว (ขยายจากซ้ายไปขวา) -->
+    <!-- ลายบล็อก ░ ▒ ▓ -->
+    <pattern id="light" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="1.5" height="1.5" fill="#FF50CE"/>
+    </pattern>
+    <pattern id="med" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="1.5" height="1.5" fill="#FF50CE"/>
+      <rect x="1.5" y="1.5" width="1.5" height="1.5" fill="#FF50CE"/>
+    </pattern>
+    <pattern id="dark" width="3" height="3" patternUnits="userSpaceOnUse">
+      <rect width="3" height="1.5" fill="#FF50CE"/>
+      <rect y="1.5" width="1.5" height="1.5" fill="#FF50CE"/>
+    </pattern>
+
+    <!-- ส่วนที่ถอดรหัสแล้ว -->
     <clipPath id="done">
       <rect x="10" y="0" height="50" width="0">
         <animate attributeName="width" dur="6s" repeatCount="indefinite" calcMode="discrete"
           values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2;201.6;216;230.4;244.8"
-          keyTimes="0;.115;.129;.144;.159;.174;.188;.203;.218;.232;.247;.262;.276;.291;.306;.321;.335;.35"/>
+          keyTimes="0;.215;.229;.244;.259;.274;.288;.303;.318;.332;.347;.362;.376;.391;.406;.421;.435;.45"/>
       </rect>
     </clipPath>
-    <!-- ส่วนที่ยังสุ่มอยู่ (หดจากซ้ายไปขวา) -->
+    <!-- ส่วนที่ยังสุ่มอยู่ -->
     <clipPath id="todo">
       <rect x="10" y="0" height="50" width="300">
         <animate attributeName="x" dur="6s" repeatCount="indefinite" calcMode="discrete"
           values="10;24.4;38.8;53.2;67.6;82;96.4;110.8;125.2;139.6;154;168.4;182.8;197.2;211.6;226;240.4;254.8"
-          keyTimes="0;.115;.129;.144;.159;.174;.188;.203;.218;.232;.247;.262;.276;.291;.306;.321;.335;.35"/>
+          keyTimes="0;.215;.229;.244;.259;.274;.288;.303;.318;.332;.347;.362;.376;.391;.406;.421;.435;.45"/>
       </rect>
     </clipPath>
   </defs>
 
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace"
-     font-size="24" font-weight="bold" fill="#58A6FF">
+  <!-- 1) บล็อก ▓▒░█ ตอนเริ่ม -->
+  <g>
+    <animate attributeName="opacity" dur="6s" repeatCount="indefinite" calcMode="discrete"
+      values="1;0" keyTimes="0;.2"/>
+    <rect x="10.5"  y="11" width="13.4" height="28" fill="url(#dark)"/>
+    <rect x="24.9"  y="11" width="13.4" height="28" fill="url(#med)"/>
+    <rect x="39.3"  y="11" width="13.4" height="28" fill="url(#light)"/>
+    <rect x="53.7"  y="11" width="13.4" height="28" fill="#FF50CE"/>
+    <rect x="68.1"  y="11" width="13.4" height="28" fill="url(#dark)"/>
+    <rect x="82.5"  y="11" width="13.4" height="28" fill="url(#med)"/>
+    <rect x="96.9"  y="11" width="13.4" height="28" fill="url(#light)"/>
+    <rect x="111.3" y="11" width="13.4" height="28" fill="#FF50CE"/>
+    <rect x="125.7" y="11" width="13.4" height="28" fill="url(#dark)"/>
+    <rect x="140.1" y="11" width="13.4" height="28" fill="url(#med)"/>
+    <rect x="154.5" y="11" width="13.4" height="28" fill="url(#light)"/>
+    <rect x="168.9" y="11" width="13.4" height="28" fill="#FF50CE"/>
+    <rect x="183.3" y="11" width="13.4" height="28" fill="url(#dark)"/>
+    <rect x="197.7" y="11" width="13.4" height="28" fill="url(#med)"/>
+    <rect x="212.1" y="11" width="13.4" height="28" fill="url(#light)"/>
+    <rect x="226.5" y="11" width="13.4" height="28" fill="#FF50CE"/>
+    <rect x="240.9" y="11" width="13.4" height="28" fill="url(#dark)"/>
+  </g>
 
-    <!-- 1) บล็อกตอนเริ่ม -->
-    <text x="10" y="33" textLength="244.8" lengthAdjust="spacing" fill-opacity=".6">▓▒░█▓▒░█▓▒░█▓▒░█▓<animate attributeName="opacity" dur="6s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0;.1"/></text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace"
+     font-size="24" font-weight="bold" fill="#FF50CE">
 
     <!-- 2) ตัวอักษรสุ่ม XO!# -->
-    <g clip-path="url(#todo)" fill-opacity=".6" opacity="0">
+    <g clip-path="url(#todo)" opacity="0">
       <animate attributeName="opacity" dur="6s" repeatCount="indefinite" calcMode="discrete"
-        values="0;1;0" keyTimes="0;.1;.35"/>
+        values="0;1;0" keyTimes="0;.2;.45"/>
       <text x="10" y="33" textLength="244.8" lengthAdjust="spacing">X#O!X#!O XO#!X!#O<animate attributeName="opacity" dur=".24s" repeatCount="indefinite" calcMode="discrete" values="1;0;0"/></text>
       <text x="10" y="33" textLength="244.8" lengthAdjust="spacing">#!XO#O!X O!X#O#X!<animate attributeName="opacity" dur=".24s" repeatCount="indefinite" calcMode="discrete" values="0;1;0"/></text>
       <text x="10" y="33" textLength="244.8" lengthAdjust="spacing">O!#X!X#O #X!OX#!O<animate attributeName="opacity" dur=".24s" repeatCount="indefinite" calcMode="discrete" values="0;0;1"/></text>
