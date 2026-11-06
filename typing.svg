@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="50" viewBox="0 0 230 50">
+  <defs>
+    <clipPath id="reveal">
+      <rect x="10" y="0" height="50" width="0">
+        <animate attributeName="width" dur="2s" fill="freeze" calcMode="discrete"
+          values="0;14.4;28.8;43.2;57.6;72;86.4;100.8;115.2;129.6;144;158.4;172.8;187.2"
+          keyTimes="0;.077;.154;.231;.308;.385;.462;.538;.615;.692;.769;.846;.923;1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <text x="10" y="33"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Courier New', monospace"
+        font-size="24" font-weight="bold" fill="#58A6FF"
+        textLength="187.2" lengthAdjust="spacing"
+        clip-path="url(#reveal)">Hello, World!</text>
+
+  <!-- cursor -->
+  <rect x="10" y="12" width="2" height="26" fill="#58A6FF">
+    <animate attributeName="x" dur="2s" fill="freeze" calcMode="discrete"
+      values="10;24.4;38.8;53.2;67.6;82;96.4;110.8;125.2;139.6;154;168.4;182.8;197.2"
+      keyTimes="0;.077;.154;.231;.308;.385;.462;.538;.615;.692;.769;.846;.923;1"/>
+    <animate attributeName="opacity" values="1;0" dur="1s"
+      calcMode="discrete" repeatCount="indefinite"/>
+  </rect>
+</svg>
