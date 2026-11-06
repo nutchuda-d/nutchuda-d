@@ -1,4 +1,4 @@
-<img src="./assets/typing.svg" alt="Nutchuda Doungjit" />
+<img src="./typing.svg" alt="Nutchuda Doungjit" />
 
 ## About me
 
