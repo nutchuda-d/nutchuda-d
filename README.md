@@ -1,2 +1,2 @@
 ### printf("Hello World!);
-![Alt text](boom.jpg)
+![boom](https://github.com/nutchuda-d/nutchuda-d/blob/main/boom.jpg?raw=true)
