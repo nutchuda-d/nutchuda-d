@@ -1,4 +1,6 @@
-<img src="./typing.svg" alt="Nutchuda Doungjit" />
+<p align="center">
+  <img src="./typing.svg" alt="Nutchuda Doungjit" width="375" />
+</p>
 
 ## About me
 <table>
